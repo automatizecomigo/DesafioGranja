@@ -1,0 +1,93 @@
+[
+  {
+    "model": "api.pato",
+    "pk": 1,
+    "fields": {
+      "nome": "Pato Donald",
+      "mae": null
+    }
+  },
+  {
+    "model": "api.pato",
+    "pk": 2,
+    "fields": {
+      "nome": "Pato Daisy",
+      "mae": 1
+    }
+  },
+  {
+    "model": "api.pato",
+    "pk": 3,
+    "fields": {
+      "nome": "Pato Huguinho",
+      "mae": 2
+    }
+  },
+  {
+    "model": "api.pato",
+    "pk": 4,
+    "fields": {
+      "nome": "Pato Zezinho",
+      "mae": 2
+    }
+  },
+  {
+    "model": "api.pato",
+    "pk": 5,
+    "fields": {
+      "nome": "Pato Luizinho",
+      "mae": null
+    }
+  },
+  {
+    "model": "api.cliente",
+    "pk": 1,
+    "fields": {
+      "nome": "João da Silva",
+      "elegivel_desconto": true
+    }
+  },
+  {
+    "model": "api.cliente",
+    "pk": 2,
+    "fields": {
+      "nome": "Maria Souza",
+      "elegivel_desconto": false
+    }
+  },
+  {
+    "model": "api.cliente",
+    "pk": 3,
+    "fields": {
+      "nome": "Carlos Oliveira",
+      "elegivel_desconto": true
+    }
+  },
+  {
+    "model": "api.venda",
+    "pk": 1,
+    "fields": {
+      "cliente": 1,
+      "data_venda": "2024-10-04",
+      "pato": [1, 2]
+    }
+  },
+  {
+    "model": "api.venda",
+    "pk": 2,
+    "fields": {
+      "cliente": 2,
+      "data_venda": "2024-10-03",
+      "pato": [3]
+    }
+  },
+  {
+    "model": "api.venda",
+    "pk": 3,
+    "fields": {
+      "cliente": 3,
+      "data_venda": "2024-10-02",
+      "pato": [1, 3, 5]
+    }
+  }
+]
